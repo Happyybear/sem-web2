@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e184979a-482f-4dc5-bb88-d3cbb44db724" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/sem/semprovider/config/BaseRedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/sem/semprovider/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/beans/provider/archive/UserDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/annotation/CacheException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/component/DynamicAccessDecisionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/component/DynamicSecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/component/DynamicSecurityMetadataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/component/DynamicSecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/component/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/component/RestAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/component/RestfulAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/config/CommonSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/config/IgnoreUrlsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/util/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/config/security/util/SpringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem-security/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem-security/src/main/java/com/sem/security/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem-security/src/main/java/com/sem/security/util/JwtTokenUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semprovider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/semprovider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/beans/fetch/archive/UserBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/beans/fetch/archive/UserBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/controller/archive/ArchiveRequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/controller/archive/ArchiveRequestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/service/ServInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/service/ServInitialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/service/archive/ArchiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/service/archive/ArchiveService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/service/archive/impl/ArchiveServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/semprovider/src/main/java/com/sem/semprovider/service/archive/impl/ArchiveServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semprovider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/semprovider/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="e184979a-482f-4dc5-bb88-d3cbb44db724" name="Changes" comment="security" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,8 +144,31 @@
       <workItem from="1669613907343" duration="7675000" />
       <workItem from="1669622719845" duration="958000" />
       <workItem from="1669623823668" duration="4545000" />
-      <workItem from="1669640507225" duration="3836000" />
+      <workItem from="1669640507225" duration="4117000" />
+      <workItem from="1669645810366" duration="330000" />
     </task>
+    <task id="LOCAL-00001" summary="security">
+      <created>1669645673148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669645673148</updated>
+    </task>
+    <task id="LOCAL-00002" summary="security">
+      <created>1669645760546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669645760546</updated>
+    </task>
+    <task id="LOCAL-00003" summary="security">
+      <created>1669645831104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669645831104</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="security" />
+    <option name="LAST_COMMIT_MESSAGE" value="security" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
