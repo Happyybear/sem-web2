@@ -15,7 +15,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mybatis-plus>3.5.2</mybatis-plus>
         <sem-common.version>1.0-SNAPSHOT</sem-common.version>
-        <jjwt.version>0.11.5</jjwt.version>
+        <jjwt.version>0.9.1</jjwt.version>
+        <hutool.version>5.8.9</hutool.version>
     </properties>
 
     <parent>
@@ -28,7 +29,6 @@
     <modules>
         <module>semprovider</module>
         <module>common</module>
-        <module>sem-security</module>
     </modules>
 
     <dependencies>
@@ -47,6 +47,19 @@
                 <groupId>com.sem.common</groupId>
                 <artifactId>sem-common</artifactId>
                 <version>${sem-common.version}</version>
+            </dependency>
+
+            <!--Hutool Java工具包-->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+            <!--JWT(Json Web Token)登录支持-->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
